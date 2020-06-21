@@ -58,3 +58,4 @@ and type for example
 python3 src/helmholtz_1d.py
 ```
 Open the `vtk` files that were produced in the `data/` folder with Paraview to see the result.
+[![Run on Repl.it](https://repl.it/badge/github/Jonas-Nyador/Demo_Firedrake)](https://repl.it/github/Jonas-Nyador/Demo_Firedrake)

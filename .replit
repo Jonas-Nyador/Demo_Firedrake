@@ -1,0 +1,2 @@
+language = "python3"
+run = "helmholtz_1d.py"
