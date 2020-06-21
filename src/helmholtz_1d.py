@@ -19,7 +19,7 @@ class Helmholtz:
         self.__fe_degree = 1
         self.__n_cycles = n_cycles
         
-        self.__n_cell = np.array([4])
+        self.__n_cell = np.array([8])
         self.__h = np.array([1/self.__n_cell[-1]])
         
         self.__error_l2 = np.array([])
@@ -49,7 +49,7 @@ class Helmholtz:
     def setup_data(self):                
         self.x = SpatialCoordinate(self.mesh)
         self.f = Function(self.V)
-        self.f.interpolate((1 + 4*pi*pi)*cos(self.x[0]*pi*2))
+        self.f.interpolate((1 + 4*pi*pi)*sin(self.x[0]*pi*2))
 
 
     def setup_form(self):
@@ -61,7 +61,7 @@ class Helmholtz:
 
 
     def setup_exact_solution(self):
-        self.u_exact_expr = cos(self.x[0]*pi*2)
+        self.u_exact_expr = sin(self.x[0]*pi*2)
                 
         
     def setup_bc(self):   
