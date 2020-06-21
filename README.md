@@ -33,7 +33,7 @@ in the Eclipse Marketplace (Menu bar --> Help --> Eclipse Marketplace). In eclip
 Firedrake has a great [documentation](https://www.firedrakeproject.org/documentation.html).
 
 ---	
-
+[![Run on Repl.it](https://repl.it/badge/github/konsim83/Demo_Firedrake)](https://repl.it/github/konsim83/Demo_Firedrake)
 ## Getting and running the examples
 
 You must first clone the repository:
